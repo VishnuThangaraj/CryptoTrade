@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+/* ToolKit */
+#tool_kit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#search_box {
+  width: 60%;
+}
+
+/* Crypto Display */
+.container_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 2%;
+  text-align: left;
+}
+
+.image_size {
+  width: 25px;
+  height: 25px;
+}
+
+.coin_logo {
+  text-align: center;
+}
