@@ -11,8 +11,7 @@ const parentTable = document.getElementById(`table_data`);
 sortByMkt.addEventListener("click", function () {
   const tempData = cryptoData.sort(
     (a, b) =>
-      Math.abs(Math.trunc(b.market_cap_change_24h)) -
-      Math.abs(Math.trunc(a.market_cap_change_24h))
+      Math.trunc(b.market_cap_change_24h) - Math.trunc(a.market_cap_change_24h)
   );
   appendToWebsite(tempData);
 });
