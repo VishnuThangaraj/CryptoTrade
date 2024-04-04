@@ -13,7 +13,7 @@ sortByMkt.addEventListener("click", function () {
     (a, b) =>
       Math.trunc(b.market_cap_change_24h) - Math.trunc(a.market_cap_change_24h)
   );
-  appendToWebsite(tempData);
+  appendToWebsite(tempData); // change
 });
 
 sortByPercentage.addEventListener("click", function () {
