@@ -79,6 +79,7 @@ function appendToWebsite(data) {
       coinPercentage.classList.add("coin_percentage", "col-2", "text-danger");
     } else {
       coinPercentage.classList.add("coin_percentage", "col-2", "text-success");
+      containerHolder.classList.add("green", "container_holder");
     }
 
     const coinMKT = document.createElement("div");
@@ -115,3 +116,4 @@ async function fetchData() {
 }
 
 fetchData();
+alert("Data Fetched from JSON file, as the given API is not accessable");
